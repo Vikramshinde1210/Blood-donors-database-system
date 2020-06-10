@@ -10,7 +10,7 @@ import java.sql.SQLException;
 			try 
 			{
 				Class.forName("com.mysql.jdbc.Driver");
-				Connection con=DriverManager.getConnection("jdbc:mysql://javapb.mysql.database.azure.com:3306/java?useSSL=true&requireSSL=false&serverTimezone=UTC","vicky@javapb","java@1210");
+				Connection con=DriverManager.getConnection("jdbc:mysql://javapb.mysql.database.azure.com:3306/java?useSSL=true&requireSSL=false&serverTimezone=UTC","username","password");
 			return con;
 			}
 			catch(ClassNotFoundException e)
